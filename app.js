@@ -7,6 +7,7 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   console.log('访问一次');
+  console.log('加油');
   res.end('Hello World\n');
 });
 
